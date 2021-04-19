@@ -1,0 +1,45 @@
+﻿@model List<SipmleCRUD.Models.Employee>
+<div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Emplyee Id</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>NID</th>
+                <th>Present Address</th>
+                <th>Permanent Address</th>
+                <th>Join Date</th>
+                <th>Designation</th>
+                <th>Basic</th>
+                <th>Bank A/C No</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+            <tr>
+                <td>@Model[i].EmployeeID</td>
+                <td>@Model[i].Name</td>
+                <td>@Model[i].Father_Name</td>
+                <td>@Model[i].Mother_Name</td>
+                <td>@Model[i].NID</td>
+                <td>@Model[i].Present_Address</td>
+                <td>@Model[i].Permanent_Address</td>
+                <td>@Model[i].Join_Date</td>
+                <td>@Model[i].Designation</td>
+                <td>@Model[i].Basic</td>
+                <td>@Model[i].Bank_A_C_No</td>              
+                <td>
+                    <a href="@Url.Action("Delete",new { id = Model[i].ID})"><i class="glyphicon glyphicon-trash"></i></a>
+                    <a href="@Url.Action("EditEmployee",new { id = Model[i].ID})"><i class="glyphicon glyphicon-pencil"></i></a>
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipmleCRUD", "SipmleCRUD\SipmleCRUD.csproj", "{7DCB98F7-C8AB-474B-B4BD-7EA8DB8626E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCB98F7-C8AB-474B-B4BD-7EA8DB8626E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCB98F7-C8AB-474B-B4BD-7EA8DB8626E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCB98F7-C8AB-474B-B4BD-7EA8DB8626E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCB98F7-C8AB-474B-B4BD-7EA8DB8626E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8517A497-7064-4FF9-BD24-B83FCD4DF816}
+	EndGlobalSection
+EndGlobal

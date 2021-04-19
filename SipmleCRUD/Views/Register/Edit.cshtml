@@ -1,0 +1,25 @@
+﻿@model SipmleCRUD.Models.tblUser
+@using (Html.BeginForm())
+{
+<div class="container">
+    <div class="form-group">
+        <label>Username:</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Password:</label>
+        @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+
+    </div>
+    <div class="button">
+        <button class="btn btn-success">Submit</button>
+    </div>
+
+</div>
+}
